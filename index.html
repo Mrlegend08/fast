@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,96 +8,92 @@
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
   <link rel="stylesheet" href="./css/main.css">
 </head>
+
 <body>
-  
+
   <div class="container">
     <div class="site_wrapper">
       <h2 class="item">Kim birinchi borishga !</h2>
-      
+
       <form class="distance-form">
-        
+
         <div class="form_wrapper">
           <label class="leabel_title" for="name">Masofa</label>
-          <input class="form-control distance-input site_imput"
-           type="number" 
-           id="name"
-          name="distance"
-          placeholder="100km"
-          step="any"
-          required>
-          
-          <button class="site_btn" 
-          type="submit">Hisobla</button>
+          <input class="form-control distance-input site_imput" type="number" id="name" name="distance"
+            placeholder="100km" step="any" required>
+
+          <button class="site_btn" type="submit">Hisobla</button>
         </div>
       </form>
 
-<div class="hammasini_wrapper">
-    <div class="cart_wrapper">
-      <div class="cart" value="piyoda">
-          
-          <span class="d-block material-icons mb-1">directions_run</span>
-          <span class="d-block type">Piyoda</span>
-          <span class="d-block text-success time walk-time">soat</span>
-      </div>
-    </div>
-
-      <div class="cart_wrapper">
-        <div class="cart" value="piyoda">
-          <span class="d-block material-icons mb-1">pedal_bike</span>
-          <span class="d-block type">Velospedda</span>
-          <span class="d-block text-success time bike-time">soat</span>
-        </div>
-      </div>
-        
+      <div class="hammasini_wrapper">
         <div class="cart_wrapper">
           <div class="cart" value="piyoda">
-            <span class="d-block material-icons mb-1">directions_car</span>
+
+            <img src="./image/walk.jpg" alt="" width="40">
+            <span class="d-block type">Piyoda</span>
+            <span class="d-block text-success time walk-time">soat</span>
+          </div>
+        </div>
+
+        <div class="cart_wrapper">
+          <div class="cart" value="piyoda">
+            <img src="./image/bike.jpg" alt="" width="60">
+            <span class="d-block type">Velospedda</span>
+            <span class="d-block text-success time bike-time">soat</span>
+          </div>
+        </div>
+
+        <div class="cart_wrapper">
+          <div class="cart" value="piyoda">
+            <img src="./image/car.webp" alt="" width="60">
             <span class="d-block type">Mashinada</span>
             <span class="d-block text-success time car-time">soat</span>
           </div>
         </div>
         <div class="cart_wrapper">
           <div class="cart" value="piyoda">
-            <span class="d-block material-icons mb-1">flight</span>
+            <img src="./image/plane.png" alt="" width="35">
             <span class="d-block type">Samolyotta</span>
             <span class="d-block text-success time plane-time">soat</span>
           </div>
         </div>
         <div class="error-message w-100 p-3"></div>
       </div>
-      
+
     </div>
   </div>
-<!---------------------------------------------------------->
- <div class="container">
-   
-     <div class="linea"></div>
-      <h2 class="temperatura_titlle">Harorat konverti</h2>
+  <!---------------------------------------------------------->
+  <div class="container">
 
-      <form class="temp-form">
-        
-        <div class="temp_wraper">
-          <label class="site_temp_title" for="celcy-input">Harorat selsyda (C)</label>
-          <input class="temp_imput form-control celcy-input" type="number" id="celcy-input" name="celcy" placeholder="30.0 C" step="any" required>
-        </div>
+    <div class="linea"></div>
+    <h2 class="temperatura_titlle">Harorat konverti</h2>
 
-        <div class="temp_wraper">
-          <label class="site_temp_title" for="farengey-input">Harorat Farongaitda (F)</label>
-          <input class="temp_imput form-control farengey-input" type="number" id="farengey-input" name="farengey" placeholder="86.0 F" step="any" readonly>
-        </div>
-        
-        <button class="btn_stite_btn" type="submit">Hisobla</button>
-      </form>
-    </div>
-    </div>
+    <form class="temp-form">
 
-    
-  
-  <script src="js/jquery-3.5.1.min.js"></script>
-  <script src="js/bootstrap.bundle.min.js"></script>
+      <div class="temp_wraper">
+        <label class="site_temp_title" for="celcy-input">Harorat selsyda (C)</label>
+        <input class="temp_imput form-control celcy-input" type="number" id="celcy-input" name="celcy"
+          placeholder="30.0 C" step="any" required>
+      </div>
+
+      <div class="temp_wraper">
+        <label class="site_temp_title" for="farengey-input">Harorat Farongaitda (F)</label>
+        <input class="temp_imput form-control farengey-input" type="number" id="farengey-input" name="farengey"
+          placeholder="86.0 F" step="any" readonly>
+      </div>
+
+      <button class="btn_stite_btn" type="submit">Hisobla</button>
+    </form>
+  </div>
+  </div>
+
+
+
   <script src="./main.js"></script>
 </body>
+
 </html>
