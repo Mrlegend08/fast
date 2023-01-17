@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #fff;
+    gap: 50px;
+}
+
+.item{
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left: 130px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 24px;
+    color: #000;
+}
+
+.form_wrapper{
+    display: flex;
+    align-items: center;
+}
+
+
+.leabel_title{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+
+
+.site_imput{
+    width: 370px;
+    height: 40px;
+    margin-right: 20px;
+    
+}
+
+.site_btn{
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    background-color: #0fbd0f;
+}
+
+.cart_wrapper{
+    display: flex;
+   
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 160px;
+    height: 140px;
+    margin-left: 10px;
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 4px;
+}
+.cart_title{
+    
+    margin-bottom: 20px;
+}
+.hammasini_wrapper{
+display: flex;
+align-items: center;
+}
+input{
+    
+    padding-left: 10px;
+}
+
+
+
+
+
+/*******Temperatura*********/
+.linea{
+    width: 900px;
+    border: 1px solid;
+    color: #f60a0a;
+    margin-bottom: 30px;
+}
+.temperatura_titlle{
+    margin-left: 300px;
+    margin-bottom: 50px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 24px;
+    color: #000;
+}
+.temp_wraper{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.site_temp_title{
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000;
+    margin-left: 220px;
+    margin-right: 10px;
+}
+.btn_stite_btn{
+    width: 140px;
+    height: 40px;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-left: 355px;
+    border: none;
+    margin-bottom: 20px;
+    background-color: #0fbd0f;
+}
+
+
+.temp_imput{
+    width: 140px;
+    height: 25px;
+}
